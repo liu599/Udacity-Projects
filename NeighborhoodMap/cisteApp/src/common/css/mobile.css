@@ -1,0 +1,54 @@
+@media  screen and (max-width:980px) {
+  #panel {
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    height: 100%;
+    font-size: 0;
+    overflow-y: auto;
+    padding: 0;
+    top: 0;
+    right: 0;
+    width: 100%;
+    z-index: 160;
+  }
+  li{
+    list-style: none;
+    text-indent: 0.75rem;
+    padding: 0.5rem 0.5rem;
+    font-size: 0.8rem;
+    word-break: normal;
+  }
+  input[name='search']{
+    margin: 1rem 0 0 1rem;
+    font-size: 0.75rem;
+    padding: 0.3rem;
+    vertical-align: middle;
+    width: 15rem;
+  }
+  .button{
+    display: inline-block;
+    text-align: center;
+    font-size: 0.75rem;
+    line-height: 1.7rem;
+    padding: 0 0.3rem;
+    vertical-align: middle;
+    background: #222;
+    color: #f4f4f4;
+    margin-top: 1rem;
+  }
+  #show_btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    font-size: 0.75rem;
+    line-height: 2rem;
+    text-align: center;
+    position: absolute;
+    right: 1rem;
+    top: 1rem;
+    background: #a2a2a2;
+    color: #f4f4f4;
+    z-index: 200;
+  }
+}
+
